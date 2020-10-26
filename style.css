@@ -126,3 +126,27 @@ blockquote + h2 {
 h2 + h3 {
   margin-top: 41px;
 }
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: bold;
+}
+
+h1 + img {
+  margin-top: 30px;
+}
+
+h3 + h4 {
+  margin-top: 26px;
+}
+
+h2 + ul {
+  margin-top: 9px;
+}
+
+ul + h2 {
+  margin-top: 30px;
+}
