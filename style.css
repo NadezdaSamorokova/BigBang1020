@@ -1,13 +1,14 @@
 body {
-  background-image: url("Wikimedium-Post.jpg");
+  /* background-image: url("Wikimedium-Post.jpg"); */
   background-repeat: no-repeat;
   background-position: center top;
 }
 
+
 h1, h2, h3, h4, p, ol, ul, blockquote {
   width: 700px;
   margin: auto;
-  color: red;
+  color: black;
 }
 
 img {
@@ -75,10 +76,21 @@ h3 + p {
 }
 
 blockquote {
+  position: relative;
   font-family: PT Sans;
   font-style: italic;
   font-size: 22px;
   line-height: 34px;
+}
+
+blockquote::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  margin-left: -20px;
 }
 
 p + blockquote {
@@ -125,4 +137,28 @@ blockquote + h2 {
 
 h2 + h3 {
   margin-top: 41px;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: bold;
+}
+
+h1 + img {
+  margin-top: 30px;
+}
+
+h3 + h4 {
+  margin-top: 26px;
+}
+
+h2 + ul {
+  margin-top: 9px;
+}
+
+ul + h2 {
+  margin-top: 30px;
 }
