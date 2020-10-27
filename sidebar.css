@@ -8,6 +8,10 @@ nav ul {
   margin: 0;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav li {
   font-size: 14px;
   line-height: 15px;
@@ -30,4 +34,14 @@ blockquote p {
 
 nav ul ul ul li {
   font-style: italic;
+}
+
+article ul li {
+  list-style: disc;
+}
+
+article ol li {
+  list-style: decimal;
+  width: 680px;
+  margin-left: 20px;
 }
