@@ -2,6 +2,8 @@ nav {
   position: fixed;
   top: 0;
   margin: 50px;
+  width: 240px;
+  height: 15px;
 }
 
 nav ul {

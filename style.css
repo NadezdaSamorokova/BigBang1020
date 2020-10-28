@@ -31,6 +31,10 @@ line-height: 34px;
 margin-top: 30px;
 }
 
+p + img {
+  margin-top: 30px;
+}
+
 h1 {
   font-size: 40px;
   line-height: 46px;
@@ -119,6 +123,12 @@ ul {
   line-height: 34px;
 }
 
+ol {
+  font-family: PT Sans;
+  font-size: 22px;
+  line-height: 34px;
+}
+
 li + li {
   margin-top: 16px;
 }
@@ -128,8 +138,17 @@ p + ul {
   width: 665px;
 }
 
+p + ol {
+  margin-top: 30px;
+  width: 665px;
+}
+
 ul + p {
   margin-top: 31px;
+}
+
+ol + h4 {
+  margin-top: 35px;
 }
 
 blockquote + h2 {
