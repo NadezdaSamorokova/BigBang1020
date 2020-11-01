@@ -1,0 +1,221 @@
+article {
+  padding-bottom: 30px;
+}
+
+
+article h1,
+article h2,
+article h3,
+article h4,
+article p,
+article ol,
+article ul,
+article blockquote {
+  width: 700px;
+  margin: auto;
+  color: black;
+}
+
+article img {
+  width: 1020px;
+  margin: auto;
+  display: block;
+}
+
+
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+article p {
+font-family: 'PT Sans', sans-serif;
+font-size: 22px;
+line-height: 34px;
+margin-top: 30px;
+}
+
+article p + img {
+  margin-top: 30px;
+}
+
+article h1 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 63px;
+}
+
+article h1 + p {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 16px;
+}
+
+article h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+article img + h2 {
+  margin-top: 158px;
+}
+
+article h2 + p {
+  margin-top: 9px;
+}
+
+article p + h2 {
+  margin-top: 41px;
+}
+
+article h3 {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+article p + h3 {
+  margin-top: 33px;
+}
+
+article h3 + p {
+  margin-top: 7px;
+}
+
+article blockquote {
+  position: relative;
+  font-family: PT Sans;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+article blockquote::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  margin-left: -20px;
+}
+
+article p + blockquote {
+  margin-top: 27px;
+}
+
+article h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+article p + h4 {
+  margin-top: 35px;
+}
+
+article h4 + p {
+  margin-top: 7px;
+}
+
+article ul {
+  font-family: PT Sans;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+article ol {
+  font-family: PT Sans;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+article li + li {
+  margin-top: 16px;
+}
+
+article p + ul {
+  margin-top: 30px;
+}
+
+article p + ol {
+  margin-top: 30px;
+}
+
+article ul + p {
+  margin-top: 31px;
+}
+
+article ol + h4 {
+  margin-top: 35px;
+}
+
+article blockquote + h2 {
+  margin-top: 41px;
+}
+
+
+article h2 + h3 {
+  margin-top: 41px;
+}
+
+article i {
+  font-style: italic;
+}
+
+article b {
+  font-weight: bold;
+}
+
+article h1 + img {
+  margin-top: 30px;
+}
+
+article h3 + h4 {
+  margin-top: 26px;
+}
+
+article h2 + ul {
+  margin-top: 9px;
+}
+
+article ul + h2 {
+  margin-top: 30px;
+}
+
+article ul li {
+  list-style: disc;
+}
+
+article ol li {
+  list-style: decimal;
+  width: 680px;
+  margin-left: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  article img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  article h1,
+  article h2,
+  article h3,
+  article h4,
+  article p,
+  article ol,
+  article ul,
+  article blockquote {
+    width: calc(100% - 20px);
+  }
+
+  article ol li {
+    width: calc(100% - 40px);
+  }
+}
