@@ -44,6 +44,10 @@ section {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.postTeaser h2:first-child {
+  margin-top: 0;
+}
+
 .postTeaser p {
   margin-top: 8px;
   font-size: 22px;
@@ -53,7 +57,7 @@ section {
 
 @media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
   body.posts {
-    padding: 70px 0;
+    padding: 120px 0;
     background: none;
   }
 
