@@ -21,10 +21,17 @@ menu a {
   line-height: 18px;
   color: rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 menu a:hover {
   color: rgba(0, 0, 0, 0.8);
+}
+
+menu a:first-child {
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
 }
 
 menu a.current {
