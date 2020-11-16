@@ -18,24 +18,28 @@ footer {
   }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1250px) and (orientation: portrait) {
   footer {
     height: 50px;
     margin: -50px auto 0;
     font-size: 12px;
     line-height: 16px;
   }
-
-  footer {
-    padding: 0 17px;
-  }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 767px) and (orientation: portrait) {
   footer {
     flex-direction: column;
     justify-content: center;
-    height: 153;
+    height: 153px;
     padding: 30px 0 32px;
+  }
+
+  footer > div:first-child {
+    margin-bottom: 18px;
+  }
+
+  footer > div:last-child {
+    margin-top: 16px;
   }
 }

@@ -377,7 +377,7 @@ body.landing {
   }
 }
 
-@media (max-width: 414px) and (orientation: portrait) {
+@media (max-width: 767px) and (orientation: portrait) {
   body.landing {
     background-image: none;
   }
@@ -401,13 +401,19 @@ body.landing {
 
   .textContainer {
     width: 300px;
+  }
+
+  #section-1 .textContainer,
+  #section-2 .textContainer,
+  #section-3 .textContainer {
     top: 100px;
     left: calc((100vw - 300px) / 2);
   }
 
   #section-4 .textContainer {
     width: 300px;
-    text-align: center;
+    top: 100px;
+    left: calc((100vw - 300px) / 2);
   }
 
   #section-1 {
@@ -433,7 +439,7 @@ body.landing {
   #section-1-image {
     left: 10px;
     top: 258px;
-    width: 404px;
+    width: 600px;
     height: 343px;
   }
 
@@ -453,14 +459,13 @@ body.landing {
 
   #section-4 .primary,
   #section-4 .secondary {
-    font-size: 12px;
+    width: 222px;
     padding: 0 24px;
     height: 40px;
     line-height: 40px;
   }
 
   #section-4 .buttonContainer {
-    width: 222px;
     align-items: center;
     flex-direction: column-reverse;
     margin-top: 30px;

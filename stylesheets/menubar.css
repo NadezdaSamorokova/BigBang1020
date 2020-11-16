@@ -55,7 +55,7 @@ menu a.current:hover {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1250px) {
   menu div {
     padding: 0 17px;
   }
@@ -67,7 +67,7 @@ menu a.current:hover {
 
   menu a:first-child {
     width: 150px;
-    height: 13px;
-    background-size: 150px 13px;
+    height: 14px;
+    background-size: 150px 14px;
   }
 }
