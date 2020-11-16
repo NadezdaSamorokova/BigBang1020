@@ -18,7 +18,7 @@ footer {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1250px) {
   footer {
     height: 50px;
     margin: -50px auto 0;
@@ -28,5 +28,14 @@ footer {
 
   footer {
     padding: 0 17px;
+  }
+}
+
+@media (max-width: 414px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    height: 153;
+    padding: 30px 0 32px;
   }
 }
